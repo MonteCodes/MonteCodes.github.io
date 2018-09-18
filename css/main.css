@@ -1,7 +1,10 @@
 .border-div {
 margin-top: 25px;
 }
-
+.monte-codes-text {
+    font-size: 75px;
+    font-family: Lobster, cursive;
+}
 .navi {
     background-color: #cccccc;
     margin-bottom: 15px;
@@ -29,18 +32,23 @@ font-size: 60%;
     color: #cccccc;
 }
 
+#main-body, #contact, #top-bar {
+    display: none;
+}
+
 #my-name {
-font-family: Lobster, cursive;
-color: #212020;
-font-size: 38px;
-text-shadow: -2px 2px black;
+    font-family: Lobster, cursive;
+    color: #212020;
+    font-size: 38px;
+    text-shadow: -2px 2px black;
 }
 
 #my-pic {
+    border-radius: 50%;
+    border: solid 10px #cccccc;
     vertical-align: middle;
-    max-width: 100%;
-    margin-right: 30px;
-    margin-bottom: 15px;
+    max-width: 25%;
+    margin: 15px 30px 15px 30px;
 }
 
 a {
@@ -60,6 +68,7 @@ img {
 h1, h2 {
     font-family: Lobster, cursive;
     margin-bottom: 15px;
+    text-decoration: underline;
 }
 
 p {
