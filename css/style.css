@@ -1,116 +1,72 @@
-.border-div {
-margin-top: 25px;
-}
-.monte-codes-text {
-    font-size: 75px;
-    font-family: Lobster, cursive;
-}
-.navi {
-    background-color: #cccccc;
-    margin-bottom: 15px;
-}
-
-.navi li {
-    padding: 10px;
-    border: 1px solid #212020;
-}
-
-.page-content {
-margin-top: 15px;
-}
-
-.page-content h1, .page-content p {
-margin-bottom: 15px;
-}
-
-.skill-span {
-margin-left: 5px;
-font-size: 60%;
-}
-
-#contacts a {
-    color: #cccccc;
-}
-
-#main-body, #contact, #top-bar {
+div, nav {
     display: none;
 }
 
-#my-name {
-    font-family: Lobster, cursive;
-    color: #212020;
-    font-size: 38px;
-    text-shadow: -2px 2px black;
-}
-
-#my-pic {
-    border-radius: 50%;
-    border: solid 10px #cccccc;
-    vertical-align: middle;
-    max-width: 25%;
-    margin: 15px 30px 15px 30px;
-}
-
-a {
-    color: #212020;
-}
-
 html {
-    display: block;
+    font-family: 'Roboto', sans-serif;
 }
 
 img {
-    max-width: 60%;
-    margin-bottom: 5px;
-    margin-top: 15px;
+    padding-top: 2rem;
 }
 
-h1, h2 {
+.list-group-item i {
+    margin-right: 1rem;
+    font-size: 150%
+}
+
+.dark-list {
+    border-color: #343a40;
+    background-color: #343a40;
+}
+
+.light-list {
+    border-color: #f8f9fa;
+    background-color: #f8f9fa;
+}
+
+.info {
+    font-size: 140%;
+}
+
+.head-text {
     font-family: Lobster, cursive;
-    margin-bottom: 15px;
-    text-decoration: underline;
 }
 
-p {
-    display: block;
-    -webkit-margin-before: 1em;
-    -webkit-margin-after: 1em;
-    -webkit-margin-start: 0;
-    -webkit-margin-end: 0;
-    margin-bottom: 15px;
+.flex-equal > * {
+    -ms-flex: 1;
+    -webkit-box-flex: 1;
+    flex: 1;
 }
 
-h2 {
-    display: block;
-    font-size: 1.5em;
-    -webkit-margin-before: 0.83em;
-    -webkit-margin-after: 0.83em;
-    -webkit-margin-start: 0;
-    -webkit-margin-end: 0;
-    font-weight: bold;
+#big-name {
+    text-shadow: -2px 2px black ;
 }
 
-body, h1, h2, p, ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
+#contact-bar {
+    color: #f8f9fa;
+    font-size: 120%;
 }
 
-i {
-    font-size: 200%;
-    padding: 5px;
+#pysnake {
+    max-width: 85%;
 }
 
-
-
-article, body, div, footer, header, main, nav, section {
-    display: block;
+#solitaire {
+    max-width: 95%;
 }
 
-body {
-    font-family: Roboto, monospace;
-    line-height: 1.4;
-    background-color: #212020;
-    color: #ccc;
-    font-size: 125%;
+#website {
+    max-width: 85%;
+}
+#top-bar {
+    opacity: .95;
+}
+
+@media (min-width: 768px) {
+    .flex-md-equal > * {
+        -ms-flex: 1;
+        -webkit-box-flex: 1;
+        flex: 1;
+    }
 }
